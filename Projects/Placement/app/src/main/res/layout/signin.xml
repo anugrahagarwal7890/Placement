@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signin">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email/Mobile No."
+            android:gravity="center"
+            android:background="@drawable/transparent"
+            android:textColorHint="#ffffff"
+            android:textSize="25dp"
+            android:layout_marginTop="55dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:gravity="center"
+            android:background="@drawable/transparent"
+            android:textColorHint="#ffffff"
+            android:textSize="25dp"
+            android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:buttonTint="#ffffff"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remember Me"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Forgot Password ?"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="25dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Submit"
+            android:layout_marginTop="85dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/transparent"
+            android:textColorHint="#ffffff"
+            android:textSize="30dp"/>
+</LinearLayout>
